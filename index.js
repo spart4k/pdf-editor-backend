@@ -66,7 +66,7 @@ app.post("/postDocument", jsonParser, function(req, res){
     let height = await page.evaluate(() => document.documentElement.offsetHeight);
     await page.pdf({path: `.${dir}/${filename}.pdf`, height: height + 'px', printBackground: true,});
     res.send({
-      path: `/${dir}/${filename}.pdf`,
+      path: `${dir}/${filename}.pdf`,
       filename: `${filename}.pdf`,
     })
     //await page.pdf({
