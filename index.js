@@ -39,7 +39,8 @@ app.post("/postDocument", jsonParser, function(req, res){
 
   // Create a browser instance
   const browser = await puppeteer.launch({
-    executablePath: '/usr/bin/chromium-browser'
+    executablePath: '/usr/bin/chromium-browser',
+    headless: 'new'
   });
 
   // Create a new page
