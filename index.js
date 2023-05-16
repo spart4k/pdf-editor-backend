@@ -62,7 +62,7 @@ app.post("/postDocument", jsonParser, function(req, res){
     let height = await page.evaluate(() => document.documentElement.offsetHeight);
     await page.pdf({path: `.${dir}/${filename}.pdf`, height: height + 'px', printBackground: true,});
     res.send({
-      path: `http://localhost:3000${dir}/${filename}.pdf`,
+      path: `/${dir}/${filename}.pdf`,
       filename: `${filename}.pdf`,
     })
     //await page.pdf({
@@ -125,5 +125,5 @@ app.get("/getDocument", function(req, res){
 //})();
 
 app.listen(5501, function(){
-  console.log("Сервер ожидает подключения...");
+  console.log("Сервер ожидает подключения..."+ 5501);
 });
