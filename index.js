@@ -38,11 +38,11 @@ app.post("/postDocument", jsonParser, function(req, res){
   (async () => {
 
   // Create a browser instance
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({headless: true});
 
   // Create a new page
   const page = await browser.newPage();
-  await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36');
+  //await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36');
   //Get HTML content from HTML file
   //const document = fs.readFileSync('index.html', 'utf-8');
   readFile('./template/template.html', 'utf8', async function ( error, contents) {
