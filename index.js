@@ -42,6 +42,10 @@ app.post("/postDocument", jsonParser, function(req, res){
 
   // Create a new page
   const page = await browser.newPage();
+  console.log(await page.evaluate(() => navigator.userAgent));
+  await page.setExtraHTTPHeaders({
+      'Accept-Language': 'en-GB,en-US;q=0.9,en;q=0.8'
+  });
   //await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36');
   //Get HTML content from HTML file
   //const document = fs.readFileSync('index.html', 'utf-8');
