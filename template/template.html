@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      box-sizing: border-box
+    }
+
+    #app {
+      height: 100%;
+      flex: 1
+    }
+
+    #app,body {
+      display: flex;
+      flex-direction: column
+    }
+
+    body {
+      font-size: 1.125rem;
+      line-height: 1.1666666667;
+      font-family: 'Helvetica',sans-serif;
+      font-weight: 400;
+      min-height: 100vh;
+      min-height: -webkit-fill-available;
+      width: 100%
+    }
+
+    .v-main,.v-main__wrap {
+      height: 100%
+    }
+
+    :global(.title) {
+      color: red;
+      text-align: left
+    }
+
+    .style_logo_r0kyb[data-v-9c1246f4] {
+      fill: var(--text-color);
+      width: 7.375rem;
+      height: 1.375rem;
+      cursor: pointer;
+      pointer-events: all
+    }
+
+    .style_layout_zaEWT[data-v-390df7bc] {
+      background-color: #f8f6f2;
+      height: 100%;
+      flex: 1;
+      padding: 1.25rem 1.875rem
+    }
+
+    .preview {
+      width: 1100px
+    }
+
+    *,.preview {
+      page-break-inside: avoid
+    }
+
+    * {
+      page-break-after: avoid
+    }
+
+    .pdfpreview {
+      background-color: #fff;
+      padding: 50pt 30pt;
+      width: 100%;
+      page-break-inside: avoid
+    }
+
+    .pdfpreview p {
+      padding: 0;
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+
+    .pdfpreview h1 {
+      padding: 0;
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+
+    .pdfpreview .template {
+      page-break-inside: avoid
+    }
+
+    .pdfpreview .template .header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10pt
+    }
+
+    .pdfpreview .template .header .title {
+      font-weight: 700;
+      font-size: 14pt;
+      line-height: 1.1;
+      width: 50%
+    }
+
+    .pdfpreview .template .header .row {
+      width: 45%;
+      display: flex;
+      font-weight: 500;
+      line-height: 1.2;
+      font-size: 8pt;
+      color: rgba(0,0,0,.5)
+    }
+
+    .pdfpreview .template .header .row .col {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between
+    }
+
+    .pdfpreview .template .header .row .col:first-child>div:first-child {
+      margin-bottom: 12pt
+    }
+
+    .pdfpreview .template .header .row .col:last-child img {
+      max-width: 100%;
+      width: 65%;
+      margin-bottom: 12pt
+    }
+
+    .pdfpreview .template .table {
+      width: 100%
+    }
+
+    .pdfpreview .template .table h2 {
+      font-size: 12pt;
+      font-weight: 500
+    }
+
+    .pdfpreview .template .table table {
+      border-collapse: collapse;
+      width: 100%;
+      font-weight: 500;
+      line-height: 1.2;
+      font-size: 8pt;
+      border: .5pt solid rgba(0,0,0,.1)
+    }
+
+    .pdfpreview .template .table tr.lighting {
+      background-color: #f4f2ef
+    }
+
+    .pdfpreview .template .table tr.lighting .rowTitle {
+      font-size: 10pt;
+      font-weight: 700
+    }
+
+    .pdfpreview .template .table tr td {
+      padding: 3pt
+    }
+
+    .pdfpreview .template .table tr td.filled {
+      background-color: #ece7de
+    }
+
+    .pdfpreview .template .result {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 15pt
+    }
+
+    .pdfpreview .template .result .price,.pdfpreview .template .result .shedule {
+      width: 35%;
+      text-align: center
+    }
+
+    .pdfpreview .template .result .price p:first-child,.pdfpreview .template .result .shedule p:first-child {
+      font-size: 12pt;
+      font-weight: 500;
+      color: rgba(0,0,0,.5);
+      margin-bottom: 3pt
+    }
+
+    .pdfpreview .template .result .price p:last-child,.pdfpreview .template .result .shedule p:last-child {
+      font-weight: 700;
+      font-size: 14pt;
+      line-height: 1.1
+    }
+
+    .pdfpreview .template .taxi {
+      margin-top: 10pt
+    }
+
+    .pdfpreview .template .taxi span {
+      font-size: 10pt;
+      font-weight: 700
+    }
+
+  </style>
+</head>
+<body>
+  <div class="">
+    { document }
+  </div>
+</body>
+</html>

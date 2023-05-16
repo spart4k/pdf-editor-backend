@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style type="text/css">
+    * {
+  box-sizing: border-box
+}
+
+#app {
+  height: 100%;
+  flex: 1
+}
+
+#app,body {
+  display: flex;
+  flex-direction: column
+}
+
+body {
+  font-size: 1.125rem;
+  line-height: 1.1666666667;
+  font-family: Noto Sans,sans-serif;
+  font-weight: 400;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  width: 100%
+}
+
+.v-main,.v-main__wrap {
+  height: 100%
+}
+
+:global(.title) {
+  color: red;
+  text-align: left
+}
+
+.style_logo_r0kyb[data-v-9c1246f4] {
+  fill: var(--text-color);
+  width: 7.375rem;
+  height: 1.375rem;
+  cursor: pointer;
+  pointer-events: all
+}
+
+.style_layout_zaEWT[data-v-390df7bc] {
+  background-color: #f8f6f2;
+  height: 100%;
+  flex: 1;
+  padding: 1.25rem 1.875rem
+}
+
+.preview {
+  width: 1100px
+}
+
+*,.preview {
+  page-break-inside: avoid
+}
+
+* {
+  page-break-after: avoid
+}
+
+.pdfpreview {
+  background-color: #fff;
+  padding: 50pt 30pt;
+  width: 100%;
+  page-break-inside: avoid
+}
+
+.pdfpreview p {
+  padding: 0;
+  margin-bottom: 0
+}
+
+.pdfpreview .template {
+  page-break-inside: avoid
+}
+
+.pdfpreview .template .header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10pt
+}
+
+.pdfpreview .template .header .title {
+  font-weight: 700;
+  font-size: 14pt;
+  line-height: 1.1;
+  width: 50%
+}
+
+.pdfpreview .template .header .row {
+  width: 45%;
+  display: flex;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 8pt;
+  color: rgba(0,0,0,.5)
+}
+
+.pdfpreview .template .header .row .col {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+}
+
+.pdfpreview .template .header .row .col:first-child>div:first-child {
+  margin-bottom: 12pt
+}
+
+.pdfpreview .template .header .row .col:last-child img {
+  max-width: 100%;
+  width: 65%;
+  margin-bottom: 12pt
+}
+
+.pdfpreview .template .table {
+  width: 100%
+}
+
+.pdfpreview .template .table h2 {
+  font-size: 12pt;
+  font-weight: 500
+}
+
+.pdfpreview .template .table table {
+  border-collapse: collapse;
+  width: 100%;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 8pt;
+  border: .5pt solid rgba(0,0,0,.1)
+}
+
+.pdfpreview .template .table tr.lighting {
+  background-color: #f4f2ef
+}
+
+.pdfpreview .template .table tr.lighting .rowTitle {
+  font-size: 10pt;
+  font-weight: 700
+}
+
+.pdfpreview .template .table tr td {
+  padding: 3pt
+}
+
+.pdfpreview .template .table tr td.filled {
+  background-color: #ece7de
+}
+
+.pdfpreview .template .result {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15pt
+}
+
+.pdfpreview .template .result .price,.pdfpreview .template .result .shedule {
+  width: 35%;
+  text-align: center
+}
+
+.pdfpreview .template .result .price p:first-child,.pdfpreview .template .result .shedule p:first-child {
+  font-size: 12pt;
+  font-weight: 500;
+  color: rgba(0,0,0,.5);
+  margin-bottom: 3pt
+}
+
+.pdfpreview .template .result .price p:last-child,.pdfpreview .template .result .shedule p:last-child {
+  font-weight: 700;
+  font-size: 14pt;
+  line-height: 1.1
+}
+
+.pdfpreview .template .taxi {
+  margin-top: 10pt
+}
+
+.pdfpreview .template .taxi span {
+  font-size: 10pt;
+  font-weight: 700
+}
+
+   </style>
+</head>
+<body>
+  <div class="pdfpreview"><div class="template"><div class="header"><h1 class="title">1Коммерческое предложение на разработку сайта для группы компании «Центр Речевых Технологий»</h1><div class="row"><div class="col"><div><p>Контактное лицо <br> со стороны Исполнителя</p></div><div><p>Евгений Смирнов2332</p><p>jenya@roky.rocks</p><p>+7 917 036 12 10</p></div></div><div class="col"><img src="/img/ROKY.b55a539c.png" alt=""><div><p>ROKY</p><p>8 800 201 1486</p><p>www.roky.rocks; hello@roky.rocks</p></div></div></div></div><div class="table price"><h2>Стоимость работ по проекту</h2><table border="1"><thead><tr><td align="right" width="20%"></td><td align="right" width="10%">Стоимость</td><td align="center" width="14pt" colspan="25">Последовательность работ (рабочие недели)</td></tr><tr><td align="right" width="20%"></td><td align="right" width="10%"></td><td width="2.8%">1</td><td width="2.8%">2</td><td width="2.8%">3</td><td width="2.8%">4</td><td width="2.8%">5</td><td width="2.8%">6</td><td width="2.8%">7</td><td width="2.8%">8</td><td width="2.8%">9</td><td width="2.8%">10</td><td width="2.8%">11</td><td width="2.8%">12</td><td width="2.8%">13</td><td width="2.8%">14</td><td width="2.8%">15</td><td width="2.8%">16</td><td width="2.8%">17</td><td width="2.8%">18</td><td width="2.8%">19</td><td width="2.8%">20</td><td width="2.8%">21</td><td width="2.8%">22</td><td width="2.8%">23</td><td width="2.8%">24</td><td width="2.8%">25</td></tr></thead><tbody><tr><td width="20%">Проектирование</td><td width="10%">3600</td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class="filled"></td><td width="2.8%" class="filled"></td><td width="2.8%" class="filled"></td><td width="2.8%" class="filled"></td><td width="2.8%" class="filled"></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td></tr><tr><td width="20%">Разработка дизайн-концепции</td><td width="10%">0</td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td></tr><tr><td width="20%">Финализация дизайна (до 150 страниц)</td><td width="10%">0</td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td></tr><tr><td width="20%">Программирование</td><td width="10%">0</td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td></tr><tr><td width="20%">Тестирование</td><td width="10%">0</td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td></tr><tr><td width="20%">Ввод в эксплуатацию</td><td width="10%">0</td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td><td width="2.8%" class=""></td></tr></tbody></table><div class="result"><div class="price"><p>Итого</p><p>3600 RUB</p></div><div class="shedule"><p>Срок реализации проекта</p><p>25 рабочих недель</p></div></div></div><div class="table price"><h2>Смета проекта</h2><table border="1"><thead><tr><td height="40pt" align="center" rowspan="3" width="50%"></td><td height="40pt" align="center" rowspan="3" width="25%">Специалист</td><td height="40pt" align="center" rowspan="3" width="25%" colspan="26">Стоимость</td></tr></thead><tbody><tr class="lighting"><td width="50%" class="rowTitle">Проектирование</td><td width="25%"></td><td width="25%" align="right" colspan="26">3600 RUB</td></tr><tr><td width="50%"><p>Вводное интервью с командой (до 3 интервью, включая подготовку, сбор и анализ бизнес требований, базовый продуктовый анализ) Время и дата согласовываются по средствам электронной почты.</p></td><td align="center" rowspan="7" width="25%"><p> Технический писатель (Digital) </p><p> Технический директор (Digital) </p><p> Арт-директор (Digital) </p></td><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Проектирование пользовательский путей (User flow)</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Разработка прототипов (до 92 экранов)</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Разработка технического задания</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Контроль качества</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Управление этапом проектирования (менеджмент этапа)</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Результат работ по этапу: <br> – Прототипы (до 92 страниц) в формате Figma; <br>– User Flow (Miro) <br>– Техническое задание в формате Google Docs</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr class="lighting"><td width="50%" class="rowTitle">Разработка дизайн-концепции</td><td width="25%"></td><td width="25%" align="right" colspan="26">0 RUB</td></tr><tr><td width="50%"><p>Организация воркшопа с командой клиента (3 онлайн сессии по 2 часа, сбор вводной информации для разработки дизайн концепции, погружение в проект, анализ входящих данных, создание дизайн концепции)</p></td><td align="center" rowspan="8" width="25%"></td><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Финализация дизайн концепции</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>– Анализ трендов отрасли, референсов, схожих проектов (блок в презентации концепции: анализ отрасли, обзор примеров, дизайнерских приемов, обоснование применяемых дизайн-приемов)</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>– Анализ и выбор шрифтов для использования (блок в презентации концепции: выбор из существующих шрифтов включая брендбук и альтернативных, примеры использования шрифтов в дизайне на примере digital-носителей)</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Создание цветового кодирования (блок в презентации концепции: разработка цветового кода сайта, примеры применения цветовой схемы на digital-носителях, обоснование выбранной цветовой схемы)</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Разработка дизайн-макета элементов навигации (блок в презентации концепции: разработка элементов навигации, демонстрация примеров навигации, основного и вторичного меню, шапки и футера сайта)</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Управление этапом разработки дизайн концепции (менеджмент этапа)</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Результат работ по этапу: <br>– Презентация концепции в формате keynote/pdf;</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr class="lighting"><td width="50%" class="rowTitle">Финализация дизайна (до 150 страниц)</td><td width="25%"></td><td width="25%" align="right" colspan="26">0 RUB</td></tr><tr><td width="50%"><p>Главная страница компании (разработка дизайн-макетов до 8 экранов), макеты Figma</p></td><td align="center" rowspan="16" width="25%"></td><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Раздел продукты (разработка дизайн-макетов до 24 страниц), макеты Figma</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Раздел решения (разработка дизайн-макетов до 43 страниц), макеты Figma</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Раздел проекты (разработка дизайн-макетов до 10 страниц), макеты Figma</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Раздел пресс-центр (разработка дизайн-макетов до 10 страниц), макеты Figma</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Раздел о компании (разработка дизайн-макетов до 10 страниц), макеты Figma</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Раздел карьера (разработка дизайн-макетов до 10 страниц), макеты Figma</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Раздел техподдержка (разработка дизайн-макетов до 10 страниц), макеты Figma</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Раздел технологии (разработка дизайн-макетов до 10 страниц), макеты Figma</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Подготовка презентации с описанием интерфейсов (Взаимодействия страниц, описание логики поведения интерфейса)</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Планшетная версия</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Мобильная версия</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Адаптация интерфейсов под языковые версии</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Контроль качества</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Управление этапом финализации дизайна (менеджмент этапа)</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Результат работ по этапу: <br>– Дизайн-макеты страниц, а также дизайн-макеты страниц адаптированных под мобильные устройства, в формате Figma;</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr class="lighting"><td width="50%" class="rowTitle">Программирование</td><td width="25%"></td><td width="25%" align="right" colspan="26">0 RUB</td></tr><tr><td width="50%"><p>Программирование экранов для Web</p></td><td align="center" rowspan="13" width="25%"></td><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Программирование экранов для Мобильных устройств</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Frontend разработка</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Разработка backend-части веб-сайта</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Интеграция frontend и backend части</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Разработка админ-панели</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Разработка модуля управления страницами (статичные данные)</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Разработка модуля управления динамическими данными</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Разработка модуля управления вакансиями</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Разработка типовых анимаций</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Результат работ по этапу: <br>– Архив веб-сайта в формате .zip с файлами frontend и backend, созданными с использованием языков разработки Vue.js, PHP(Laravel), CSS, HTML</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Контроль качества</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Управление этапом программирования (менеджмент этапа)</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr class="lighting"><td width="50%" class="rowTitle">Тестирование</td><td width="25%"></td><td width="25%" align="right" colspan="26">0 RUB</td></tr><tr><td width="50%"><p>Разработка сценария тестирования (разработка тест-кейса для функционального тестирования, составление релейного чек-листа)</p></td><td align="center" rowspan="9" width="25%"></td><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Тестирование интерфейса (Web)</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Корректировка интерфейса (Web)</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Тестирование интерфейса (iOS, Android)</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Корректировка интерфейса (iOS, Android)</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Прохождение тестирования на безопасность</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Контроль качества</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Управление этапом тестирования (менеджмент этапа)</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Результат работ по этапу: <br>– Архив веб-сайта в формате .zip с файлами frontend и backend, созданными с использованием языков разработки Vue.js, PHP(Laravel), CSS, HTML, а также список корректировок к интерфейсу и логике в формате .pdf/.docx/.xlsx</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr class="lighting"><td width="50%" class="rowTitle">Ввод в эксплуатацию</td><td width="25%"></td><td width="25%" align="right" colspan="26">0 RUB</td></tr><tr><td width="50%"><p>Подготовка сервера для размещение сайта (сервер предоставляет Заказчик)</p></td><td align="center" rowspan="8" width="25%"></td><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Подготовка docker-container для веб-сайта</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Настройка CI/CD для тестирования и continuous integration</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Размещение сайта (сервер предоставляет Заказчик)</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Подключение аналитических систем (Отслеживание стабильности работы сайта, отслеживание сценариев использования. Реквизиты доступа к аналитическим системам предоставляем Заказчик)</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Контроль качества</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Управление этапом введения сайта в эксплуатацию (менеджмент этапа)</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr><tr><td width="50%"><p>Результат работ по этапу: <br>– Web-сайт размещенный и функционирующий на домене заказчика</p></td><!----><td rowspan="1" width="25%" colspan="26"></td></tr></tbody></table></div><p class="taxi">* <span>НДС не облагается на основании гл. 26.2 НК РФ</span></p></div></div>
+</body>
+</html>
