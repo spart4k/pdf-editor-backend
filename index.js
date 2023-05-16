@@ -38,7 +38,7 @@ app.post("/postDocument", jsonParser, function(req, res){
   (async () => {
 
   // Create a browser instance
-  const browser = await puppeteer.launch({headless: true});
+  const browser = await puppeteer.launch({headless: false});
 
   // Create a new page
   const page = await browser.newPage();
